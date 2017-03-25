@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_name"
+        android:orderInCategory="1"
+        android:title="Sort by name"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_address"
+        android:orderInCategory="2"
+        android:title="Sort by distance"
+        android:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_time"
+        android:orderInCategory="3"
+        android:title="Sort by arrival time"
+        android:showAsAction="ifRoom|withText" />
+</menu>

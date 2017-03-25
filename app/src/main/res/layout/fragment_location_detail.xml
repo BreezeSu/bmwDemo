@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".fragment.LocationDetailFragment"
+             android:id="@+id/location_detail_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_name"
+        android:text="@string/detail_title_location"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_name"
+        android:layout_toRightOf="@+id/title_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_address"
+        android:text="@string/detail_title_address"
+        android:layout_below="@+id/text_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_address"
+        android:layout_below="@+id/text_name"
+        android:layout_toRightOf="@+id/title_address"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_arrivaltime"
+        android:text="@string/detail_title_arrivaltime"
+        android:layout_below="@+id/text_address"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_arrivaltime"
+        android:layout_below="@+id/text_address"
+        android:layout_toRightOf="@+id/title_arrivaltime"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_arrivaltime">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_longitude"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_longitude"
+            android:text="@string/detail_title_longitude" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_longitude"
+            android:layout_toRightOf="@+id/title_longitude"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_latitude"
+        android:layout_toRightOf="@+id/linear_longitude"
+        android:layout_weight="1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_latitude"
+            android:text="@string/detail_title_latitude" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_latitude"
+            android:layout_toRightOf="@+id/title_latitude"/>
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

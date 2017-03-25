@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Location</string>
+
+    <string name="title_activity_location_detail">LocationDetailActivity</string>
+    <string name="detail_title_location">Location:</string>
+    <string name="detail_title_address">Address:</string>
+    <string name="detail_title_arrivaltime">Arrival Time:</string>
+    <string name="detail_title_longitude">Longitude:</string>
+    <string name="detail_title_latitude">Latitude:</string>
+
+</resources>
